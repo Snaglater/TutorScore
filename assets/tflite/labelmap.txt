@@ -1,0 +1,6 @@
+...
+note
+rest
+key_signature
+time_signature
+clef
