@@ -14,6 +14,7 @@ Current result of the model requires more training but it able to identify music
 
 ## NOTE
 Model is trained after MUSCIMA++ Dataset which can be found here https://ufal.mff.cuni.cz/muscima
+
 Only the tflite model file is provided.
 Tested on Android phone but not yet on iOS devices.
 
