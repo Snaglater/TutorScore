@@ -1,16 +1,19 @@
-# project_application
+# TutorScore
 
-Final Year Project Application
+TutorScore is an application developed to assist beginners or newcomers into music theory. It has a collection of basic music theory data that will help kickstart the interest in music.
 
-## Getting Started
+The main focus of TutorScore is the Music object detection function. Currently the model can only detect basic music objects.
+TutorScore also has a built in metronome to assist musicians in practise their tempo.
 
-This project is a starting point for a Flutter application.
+## Music Object Detection
 
-A few resources to get you started if this is your first Flutter project:
+In this project, a trained object detection model is used to identify music objects on invidual staff lines.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+The model is trained from TensorFlow and runs in a flutter application smoothly.
+Current result of the model requires more training but it able to identify music notes.
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## NOTE
+Model is trained after MUSCIMA++ Dataset which can be found here https://ufal.mff.cuni.cz/muscima
+Only the tflite model file is provided.
+Tested on Android phone but not yet on iOS devices.
+
