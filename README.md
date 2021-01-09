@@ -3,7 +3,7 @@
 TutorScore is an application developed to assist beginners or newcomers into music theory. It has a collection of basic music theory data that will help kickstart the interest in music.
 
 The main focus of TutorScore is the Music object detection function. Currently the model can only detect basic music objects.
-TutorScore also has a built in metronome to assist musicians in practise their tempo.
+TutorScore also has a built in metronome to assist musicians in practising their tempo.
 
 ## Music Object Detection
 
