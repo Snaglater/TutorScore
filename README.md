@@ -7,7 +7,9 @@ TutorScore also has a built in metronome to assist musicians in practising their
 
 ## Music Object Detection
 
-In this project, a trained object detection model is used to identify music objects on invidual staff lines.
+In this project, a self-trained object detection model is used to identify music objects on invidual staff lines.
+The model is able to identify 5 simple music objects, music note, key signature, time signature, rest, and clef.
+
 
 The model is trained from TensorFlow and runs in a flutter application smoothly.
 Current result of the model requires more training but it able to identify music notes.
