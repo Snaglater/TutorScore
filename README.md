@@ -19,4 +19,5 @@ Model is trained after MUSCIMA++ Dataset which can be found here https://ufal.mf
 
 Only the tflite model file is provided.
 Tested on Android phone but not yet on iOS devices.
+To train the model refer to this repository: 
 
