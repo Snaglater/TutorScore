@@ -12,7 +12,7 @@ The model is able to identify 5 simple music objects, music note, key signature,
 
 
 The model is trained from TensorFlow and runs in a flutter application smoothly.
-Current result of the model requires more training but it able to identify music notes.
+Current result of the model requires more training but it is able to identify music notes.
 
 ## NOTE
 Model is trained after MUSCIMA++ Dataset which can be found here https://ufal.mff.cuni.cz/muscima
